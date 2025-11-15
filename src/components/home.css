@@ -1,0 +1,123 @@
+
+
+.shopping-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-container {
+    box-sizing: border-box;
+    height: 180px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 140px;
+}
+
+.body-container {
+    box-sizing: border-box;
+    height: 237px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 16px;
+    background: #E0F2F1;
+}
+
+.body-container>.row {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-container .row h2 {
+    font-size: 18px;
+    color: #8c1414;
+}
+
+.body-container .row .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.body-container .row .price sup {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.body-container .row button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    transition: all 1s;
+}
+
+.body-container .row button:hover {
+    transform: scale(1.09);
+}
+
+.body-container .row button:first-child {
+    background: #ff6f00;
+    color: white;
+    border: none;
+}
+
+.body-container .row button:last-child {
+    background: #827717;
+    color: white;
+    border: none;
+}
+
+
+
+/* =================whats */
+
+.body-container .row {
+    /* height: auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.body-container .row button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+/* ========== NEW WHATSAPP BUTTON INSIDE CARD ========== */
+
+.whatsapp-circle {
+    width: 45px;
+    height: 45px;
+    background: #25d366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.whatsapp-circle:hover {
+    transform: scale(1.1);
+    background: #1ebe5d;
+}
+
+.whatsapp-circle svg {
+    width: 22px;
+    height: 22px;
+    fill: white;
+}
